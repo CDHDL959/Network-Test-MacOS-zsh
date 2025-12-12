@@ -1,6 +1,8 @@
 # Network-Test-MacOS.sh
 MacOS zsh script that allows users to choose specific network tests (ping multiple IPs, get current IP, scan current network, a network quality test, TCP dump, and check open TCP ports). 
 
+To run, open terminal and go the directory (i.e. Folder) where the script is located and type: < bash test_networkBash.sh >
+
 ## Functions Used
 
 * **menu()**: a while True loop, displaying options and reading user input. After each option is selected, the script will continually loop until the user explcity chooses to exit (7).
